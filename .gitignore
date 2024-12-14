@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+dist/
+tmp/
+out-tsc/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Docker
+docker-compose.override.yml
+secrets/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Caddy
+caddy_data/
+caddy_config/
+
+# Database
+postgres_data/
